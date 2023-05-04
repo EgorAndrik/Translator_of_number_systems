@@ -52,7 +52,6 @@ public class Panel extends JPanel{
         TextFields();
         Buttons();
     }
-
     // function for creating drop downMenu
     private void creating_a_language_change_menu(){
         menuBar.setBounds(25, 0, 100, 50);

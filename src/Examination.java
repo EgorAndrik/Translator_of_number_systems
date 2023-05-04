@@ -4,7 +4,6 @@ public class Examination {
             return true;
         return false;
     }
-
     public static boolean correctSys(String SystemChisl){
         String alpha = "0123456789";
         for(int i = 0; i < SystemChisl.length(); i++)
@@ -14,7 +13,6 @@ public class Examination {
             return false;
         return true;
     }
-
     public static boolean correctNum(String Num){
         String alpha = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         Num = Num.toUpperCase();
@@ -23,7 +21,6 @@ public class Examination {
                 return false;
         return true;
     }
-
     public static boolean correctSys_and_Num(String num, String SysChisl){
         String alpha = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         int SysCh = Integer.valueOf(SysChisl + "");
@@ -33,7 +30,6 @@ public class Examination {
                 return false;
         return true;
     }
-
     public static boolean numer(String num){
         String alpha = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         for (int i = 0; num.length() > i; i++)

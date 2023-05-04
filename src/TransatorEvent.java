@@ -1,8 +1,3 @@
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 public class TransatorEvent {
     public static String textRes = Panel.resultText.getText() + "";
     public static void RussianL(){

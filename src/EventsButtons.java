@@ -1,8 +1,3 @@
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 public class EventsButtons {
     public static void cleanTextFields(){
         Panel.geterNum.setText("");
